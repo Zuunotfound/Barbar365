@@ -1,0 +1,121 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sophisticated background accent glow for depth -->
+    <path
+        android:pathData="M54,54m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="28"
+                android:type="radial">
+                <item
+                    android:color="#4DEAB308"
+                    android:offset="0.0" />
+                <item
+                    android:color="#00EAB308"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Golden Octagon Border -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,23 L79,33.5 L89.5,58.5 L79,83.5 L54,94 L29,83.5 L18.5,58.5 L29,33.5 Z"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:endX="89.5"
+                android:endY="94"
+                android:startX="18.5"
+                android:startY="23"
+                android:type="linear">
+                <item
+                    android:color="#FDE047"
+                    android:offset="0.0" />
+                <item
+                    android:color="#EAB308"
+                    android:offset="0.5" />
+                <item
+                    android:color="#CA8A04"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized "S" Monogram Path in the Center for SquadBarBar365 -->
+    <path
+        android:fillType="nonZero"
+        android:strokeWidth="1.2"
+        android:strokeColor="#1D0B33"
+        android:pathData="M35,37 H73 V43 H45 V49 H73 V75 H35 V69 H63 V63 H35 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="73"
+                android:endY="75"
+                android:startX="35"
+                android:startY="37"
+                android:type="linear">
+                <item
+                    android:color="#FFF9C4"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FDE047"
+                    android:offset="0.3" />
+                <item
+                    android:color="#EAB308"
+                    android:offset="0.7" />
+                <item
+                    android:color="#CA8A04"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Premium Little Diamond Nodes representing the "Hub" concept -->
+    <path
+        android:pathData="M54,18 L57,21 L54,24 L51,21 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="57"
+                android:endY="24"
+                android:startX="51"
+                android:startY="18"
+                android:type="linear">
+                <item
+                    android:color="#FFF9C4"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FDE047"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M54,84 L57,87 L54,90 L51,87 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="57"
+                android:endY="90"
+                android:startX="51"
+                android:startY="84"
+                android:type="linear">
+                <item
+                    android:color="#CA8A04"
+                    android:offset="0.0" />
+                <item
+                    android:color="#EAB308"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "SquadBarBar365",
+  "description": "Private employee management platform for content posting teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
